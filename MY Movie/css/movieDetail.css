@@ -1,0 +1,89 @@
+body {
+    background-color: #543a40;
+}
+.modal-open {
+    padding-right: 0px !important;
+}
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.form-control {
+    line-height: 36px;
+    border: 1px solid #b7b3b39e;
+    outline: none;
+    background: #f9f9ff;
+    padding: 0 20px;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 1px solid#a74e3263;
+    box-shadow: none;
+}
+
+.form-control:hover {
+    outline: none;
+    border: 1px solid #8490ff;
+}
+
+.form-label-group > input {
+    height: 3.125rem;
+    padding: 0.75rem;
+}
+#alertmsg {
+    min-width: fit-content;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+}
+
+section {
+    margin-bottom: 0px;
+}
+.modal-content {
+    background: linear-gradient(10deg, #ffaaae, rgba(79, 28, 146, 1)) no-repeat
+        fixed center;
+}
+
+#nav-custom {
+    position: fixed;
+    /*position: sticky;*/
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: nav-custom 0.5s;
+    z-index: 997;
+}
+.navbar-inverse li,
+a {
+    color: white;
+    color: #2bc0a4;
+}
+.navbar-inverse li:hover a {
+    color: #ecf1f0;
+}
+
+.container #movie {
+    margin-top: 90px;
+}
+
+#movie img {
+    opacity: 0.95;
+}
+#movie img:hover {
+    opacity: 1;
+}
+
+#movie_title {
+    font-size: 36px;
+    font-weight: 300;
+    color: #ffffff;
+}

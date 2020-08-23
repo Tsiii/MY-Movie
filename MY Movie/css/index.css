@@ -1,0 +1,34 @@
+img {
+    opacity: 0.95;
+}
+img:hover {
+    opacity: 1;
+}
+
+.form-control {
+    max-width: 60%;
+    margin-left: 100px;
+    align-content: center;
+    margin-right: 10px;
+
+    line-height: 36px;
+    border: 1px solid #b7b3b39e;
+    outline: none;
+    background: #f9f9ff;
+    padding: 0 20px;
+}
+
+.single-input {
+    line-height: 34px;
+    border: 1px solid #3c0f285e;
+    background: #f9f9ff;
+    padding-left: 10px;
+    max-width: 70px;
+}
+.single-input:focus {
+    outline: none;
+    border: 1.5px solid #8490ff;
+}
+.input-group-append > input {
+    margin-right: 5px;
+}

@@ -1,0 +1,47 @@
+body { 
+    background: linear-gradient(10deg, #ffaaae, #4f1c92) no-repeat fixed center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: inherit;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.form-control {
+    line-height: 36px;
+    border: 1px solid #b7b3b39e;
+    outline: none;
+    background: #f9f9ff;
+    padding: 0 20px;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 1px solid#a74e3263;
+    box-shadow: none;
+}
+
+.form-control:hover {
+    outline: none;
+    border: 1px solid #8490ff;
+}
+
+.form-label-group > input {
+    height: 3.125rem;
+    padding: 0.75rem;
+}
+#alertmsg {
+    min-width: fit-content;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+}
