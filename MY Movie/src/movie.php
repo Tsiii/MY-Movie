@@ -12,7 +12,8 @@ include ('server.php');
 	<title>Movie Final</title>
 
 	<!--------- CSS --------- -->
-	<link rel="stylesheet" href="../css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../css/bootstrap.min.css" /> 
+	<link rel="stylesheet" href="../font awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/basic.css">
 	<link rel="stylesheet" href="../css/movieDetail.css">
 
